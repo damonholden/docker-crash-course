@@ -1,0 +1,13 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  background-color: burlywood;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

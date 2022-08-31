@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Docker Project</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/messages.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>JavaScript Docker Project</h1>
+      <section id="message">
+        <h2>Message:</h2>
+        <p id="output">
+          Hello, my name is Damon Holden, and I'm interested in coding.
+        </p>
+        <button onclick="showEditMessage()">Edit Message</button>
+      </section>
+      <section id="edit-message" hidden>
+        <h2>Edit Message:</h2>
+        <form action="">
+          <label>First Name: <input type="text" /></label>
+          <label>Last Name: <input type="text" /></label>
+          <label>Interests: <input type="text" /></label>
+        </form>
+        <button onclick="showMessage()">Save</button>
+      </section>
+    </main>
+  </body>
+</html>
